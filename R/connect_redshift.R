@@ -1,0 +1,5 @@
+require(redshift)
+conn <- redshift.connect(jdbcurl,user_name,password)
+tables <- redshift.tables(conn)
+cols <- redshift.columns(conn, schema=schema,tablename)
+df <- redshift.query(conn,sql_statement)
