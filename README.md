@@ -1,2 +1,2 @@
 # tips
-tips, etc.
+tips and etc...
